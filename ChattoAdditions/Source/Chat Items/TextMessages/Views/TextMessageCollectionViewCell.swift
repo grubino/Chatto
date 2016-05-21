@@ -34,13 +34,13 @@ public final class TextMessageCollectionViewCell: BaseMessageCollectionViewCell<
         return cell
     }
 
-    override init(frame: CGRect) {
+    public override init(frame: CGRect) {
         super.init(frame: frame)
     }
 
     // MARK: Subclassing (view creation)
 
-    override func createBubbleView() -> TextBubbleView {
+    public override func createBubbleView() -> TextBubbleView {
         return TextBubbleView()
     }
 
